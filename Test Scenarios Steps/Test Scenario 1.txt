@@ -1,0 +1,41 @@
+validate product by adding to cart
+and remove the product and verify
+whether cart is empty
+
+==================================
+1.open browser
+2.enter test url
+3.mouse over on men tab
+4.click on tshirt tag
+
+5.click on adidas tshirt icon
+6.click on size icon
+7.click on add to bag button
+8.click on bag tab
+
+9.click remove button
+10.click on remove popup button
+11.verify whether product is deleted.
+
+====================================
+Step			Data						Command	
+Open website	https://www.myntra.com/		
+Click on Men								driver.findElement(By.xpath("//a[@class='desktop-main'][contains(text()	'Men')]"))
+Click on T-Shirts							driver.findElement(By.xpath("//div[@class='desktop-navLinks']//div[1]//div[1]//div[1]//div[1]//div[1]//li[1]//ul[1]//li[2]//a[1]"))	
+Click on HRX by Hrithik Roshan Men Yell		driver.findElement(By.xpath("//div[@class='product-sliderContainer']//div[2]//div[1]//div[1]//picture[1]//img[1]"))	
+Click on S									driver.findElement(By.xpath("//p[@class='size-buttons-unified-size'][contains(text()	'S')]"))
+Click on ADD TO BAG							driver.findElement(By.xpath("//div[contains(text()	'ADD TO BAG')]"))
+Click on 1Bag								driver.findElement(By.xpath("//span[@class='myntraweb-sprite desktop-iconBag sprites-headerBag']"))	
+Click on Remove								driver.findElement(By.xpath("//button[@class='inlinebuttonV2-base-actionButton itemContainer-base-inlineButton removeButton']"))	
+Click on Remove								driver.findElement(By.xpath("//button[@class='inlinebutton-base-actionButton itemComponents-base-move itemComponents-base-inlineButton']"))	
+==============================
+
+flipkart-powerbank
+Open website	https://www.flipkart.com/	
+Click on Electronics				driver.findElement(By.xpath("//span[contains(text()
+Click on Power Banks				driver.findElement(By.xpath("//li[@class='Wbt_B2 _3mmoXN']//li[2]//ul[1]//li[4]//a[1]"))
+Click on Nova 12500 Power Bank		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"))
+Click on ADD TO CART				driver.findElement(By.xpath("//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"))
+Click on Remove						driver.findElement(By.xpath("//div[contains(text()
+Click on Remove						driver.findElement(By.xpath("//div[@class='gdUKd9 _3Z4XMp _2nQDKB']"))
+Click on Successfully removed Nova 1250		driver.findElement(By.xpath("//img[@class='_2P4x_N']"))

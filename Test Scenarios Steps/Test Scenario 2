@@ -1,0 +1,15 @@
+validate product by adding to cart
+and increase the product and verify
+whether quantity is increased
+=================
+Step				Data					Command
+Open website	https://www.myntra.com/	
+Click on Men								driver.findElement(By.xpath("//a[@class='desktop-main'][contains(text()
+Click on Jeans								driver.findElement(By.xpath("//div[@class='desktop-navLinks']//div[1]//div[1]//div[1]//div[1]//div[1]//li[2]//ul[1]//li[2]//a[1]"))
+Click on Roadster Fast and Furious Men		driver.findElement(By.xpath("//div[@class='product-sliderContainer']//div[2]//div[1]//div[1]//picture[1]//img[1]"))
+Click on 32									driver.findElement(By.xpath("//div[@class='pdp-description-container']//div[3]//div[1]//button[1]"))
+Click on ADD TO BAG							driver.findElement(By.xpath("//div[contains(text()
+Click on Bag								driver.findElement(By.xpath("//span[contains(text()
+Click on Qty: 1								driver.findElement(By.xpath("//div[@class='itemBlock-base-leftBlock']//div[1]//div[1]//div[1]//div[1]//div[2]//div[1]//div[3]//div[2]"))
+Click on 12345678910						driver.findElement(By.xpath("//div[@id='2']"))
+

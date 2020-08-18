@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20545" started-at="2020-08-11T22:12:45 IST" finished-at="2020-08-11T22:13:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20545" started-at="2020-08-11T22:12:45 IST" finished-at="2020-08-11T22:13:06 IST">
+      <class name="package1.Test_scenario3">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:package1.Test_scenario3@79be0360]" name="openbrowser" is-config="true" duration-ms="15716" started-at="2020-08-11T22:12:45 IST" finished-at="2020-08-11T22:13:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="ClickNextButton()[pri:0, instance:package1.Test_scenario3@79be0360]" name="ClickNextButton" duration-ms="4788" started-at="2020-08-11T22:13:01 IST" finished-at="2020-08-11T22:13:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickNextButton -->
+      </class> <!-- package1.Test_scenario3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
